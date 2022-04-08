@@ -8,7 +8,7 @@ class NoRepeatSubstring {
     // map to store the index of letters.
     Map<Character, Integer> map = new HashMap<Character, Integer>();
 
-    for (int endWindow = 0; endWindow < str.length() - 1; endWindow++) {
+    for (int endWindow = 0; endWindow < str.length(); endWindow++) {
       char rightLetter = str.charAt(endWindow);
       // if the map already contains the letter,
       // move the start of the window to one index past
