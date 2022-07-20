@@ -1,6 +1,5 @@
 class MaxInBitonicArray {
   public static int findMax(int[] arr) {
-    int key = Integer.MAX_VALUE;
     int start = 0;
     int end = arr.length - 1;
 
